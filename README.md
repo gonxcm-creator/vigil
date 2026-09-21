@@ -4,29 +4,33 @@ Eres el último farero. Cada noche el mar manda cuerpos. Algunos quieren luz. Al
 
 Este repositorio es **tu copia del código**. El juego se guarda en el navegador (`vigil-v6`).
 
-## Qué es
+## Cómo llevártelo
 
-Una vigilia de 4–8 minutos. A/D giran el haz. Mantén para enfocar. C abre, R cierra, X quema. Si dejas subir a lo que no respira, al alba el faro estará más vacío. Si quemas a todos, te quedas solo.
-
-Marea diaria: 18:00–08:00 hora local. Noches 1–12. Cinco reliquias. Cinco finales.
-
-Español primero. English 100%.
-
-## Jugar
-
-La versión viva está en Grok App Builder. Este repo no es una página estática: no se abre arrastrándolo a GitHub Pages.
-
-Para tener el código:
+1. Abre [github.com/gonxcm-creator/vigil](https://github.com/gonxcm-creator/vigil)
+2. El botón verde **Code** → **Download ZIP**
+3. O clona:
 
 ```
 git clone https://github.com/gonxcm-creator/vigil.git
 ```
 
-El bucle de juego vive en:
+La versión viva se juega en el navegador (Grok App Builder). Este repo no es una página estática: no lo subas a GitHub Pages.
+
+## Cómo se juega
+
+- **A / D** — giran el haz. El faro no barre solo.
+- **Mantén** (espacio o Enfocar) — identificas. ¿Echa vaho?
+- **C** abre. **R** cierra. **X** quema. **F** bengala. **Esc** pausa.
+
+Marea diaria: 18:00–08:00, hora local. Noches 1–12. Cinco reliquias. Cinco finales: Luces, Solo, Carnicero, Casa abierta, Marea.
+
+Español primero. English 100%.
+
+## Código
 
 - `src/lib/vigil/` — motor, marea, noches, huéspedes, reliquias, finales
 - `src/components/vigil/vigil-app.tsx` — interfaz
 
-## Autor
+Created with Grok.
 
-gonxcm-creator
+Autor: [gonxcm-creator](https://github.com/gonxcm-creator)
